@@ -149,5 +149,9 @@
         "key": "ctrl+pageup",
         "command": "workbench.action.terminal.focusPrevious",
         "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+[Minus]",
+        "command": "workbench.action.terminal.new"
     }
 ]
