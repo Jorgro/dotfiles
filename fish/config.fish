@@ -11,6 +11,9 @@ set -gx BLOB_SAS_PYLON "?sp"
 set -gx HH_SHIM_CONNECTION_STRING "mongodb://"
 set -gx HH_SHIM_DEV_CONNECTION_STRING "mongodb://"
 
-alias om="omnicli"
-alias omd="omnicli deployment"
-alias oms="omnicli services"
+abbr -a -- g gitnow
+abbr -a -- omd 'omnicli deployment'
+abbr -a -- oms 'omnicli services'
+abbr -a -- om omnicli
+
+bind \es __fish_prepend_sudo
